@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    margin-top: 75px;
+    margin-top: 25px;
+    color:#CC0000;
 }
 
 .center {
@@ -18,5 +19,20 @@ body {
 
 .img-medium {
     height: 200px;
+}
+.img-small {
+    height: 50px;
+}
+.h1{
+    font-size:30px;
+}
+.h2{
+    font-size:25px;
+}
+.h3{
+    font-size:20px;
+}
+.h4{
+    font-size:15px;
 }
 
