@@ -6,7 +6,7 @@
         <script>
             function showmsg()
             {
-                alert(txtname);
+                alert(txtname.value);
                 document.getElementByID('lblmsg').value='Welcome '+ document.getElementByID('txtname').value;
                 
             }
@@ -27,7 +27,7 @@
         </div>
          <div class="center text-big bold">
             <h2>Enter Youe Name:</h2> <input type="text" id="txtname" maxlength="10"/>
-            <h3><input type="button" text="Login Here" onclick="showmsg()"/></h3>
+            <h3><input type="button" value="Login Here" onclick="showmsg()"/></h3>
             <div id="lblmsg"></div>
         </div>
         <script type="text/javascript" src="/ui/main.js">
