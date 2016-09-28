@@ -3,6 +3,15 @@
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
         <title>Rajendra Kachhwaha: IMAD Practical Work Page</title>
+        <script>
+            function showmsg()
+            {
+                alert(txtname);
+                document.getElementByID('lblmsg').value='Welcome '+ document.getElementByID('txtname').value;
+                
+            }
+            
+        </script>
     </head>
     <body>
         <div class="center">
@@ -15,6 +24,11 @@
             <h2>This is Rajendra Kachhwaha</h2>
             <h3>from JNVU, Jodhpur</h3>
             <h4>Rajasthan, India</h4><img src="/ui/madi.png" class="img-small"/>
+        </div>
+         <div class="center text-big bold">
+            <h2>Enter Youe Name:</h2> <input type="text" id="txtname" maxlength="10"/>
+            <h3><input type="button" text="Login Here" onclick="showmsg()"/></h3>
+            <div id="lblmsg"></div>
         </div>
         <script type="text/javascript" src="/ui/main.js">
         </script>
