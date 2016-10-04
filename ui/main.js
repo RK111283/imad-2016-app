@@ -10,6 +10,10 @@ var mrleft=0;
 function moveR(){
     mrleft=mrleft+10;
     ig.style.marginLeft=mrleft+'px';
+    if(mrleft==100)
+    {
+        mrleft=0;
+    }
 }
 
 ig.onclick=function(){
