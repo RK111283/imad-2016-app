@@ -6,10 +6,12 @@ ele.innerHTML='This is new value from *.js file.';
 
 //Shift an image, when user click on that image
 var ig=document.getElementById('img11');
+var ig1=document.getElementById('img12');
 var mrleft=0;
 function moveR(){
     mrleft=mrleft+10;
     ig.style.marginLeft=mrleft+'px';
+    ig1.style.marginLeft=mrleft+mrleft+'px';
     if(mrleft==100)
     {
         mrleft=0;
