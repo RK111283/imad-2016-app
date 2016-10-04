@@ -11,7 +11,7 @@ var mrleft=0;
 function moveR(){
     mrleft=mrleft+1;
     ig.style.marginLeft=mrleft+'px';
-    ig1.style.marginLeft=mrleft+30+'px';
+    ig1.style.marginLeft=mrleft+10+'px';
     if(mrleft==100)
     {
         mrleft=0;
